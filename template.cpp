@@ -8,22 +8,29 @@
 
 using namespace std;
 
+vector <string> split(string s, const string &del) {
+    vector <string> ret;
+    string holder;
+    while (true) {
+        holder = s.substr(0, s.find(del));
+        ret.push_back(holder);
+        if (s.find(del) == -1) {
+            break;
+        }
+        s = s.substr(s.find(del) + del.size());
+    }
+    return ret;
+}
+
 int main() {
     ifstream myFile;
     myFile.open(R"(C:\Users\erwinia\CLionProjects\AoC2023\input.txt)");
 
-    vector<vector<int>> input;
-    auto *elf = new vector<int>();
+    vector<string> input;
     while(myFile){
         auto* line = new string;
         getline(myFile, *line);
-
-        if(line->empty()){
-            input.push_back(*elf);
-            elf = new vector<int>();
-        }else{
-            elf->push_back(stoi(*line));
-        }
+        input.push_back(*line);
     }
 
     cout << input.size();

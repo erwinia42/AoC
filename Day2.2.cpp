@@ -60,7 +60,7 @@ int main() {
                 make_pair("green", 0),
                 make_pair("blue", 0)
         };
-        bool valid = true;
+
         for (const auto& draw: i) {
             for (auto color: draw) {
                 if (limits[get<0>(color)] < get<1>(color)) {

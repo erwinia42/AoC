@@ -3,7 +3,6 @@
 #include <string>
 #include <vector>
 #include <tuple>
-#include <bits.h>
 #include <sstream>
 
 using namespace std;

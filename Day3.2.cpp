@@ -10,7 +10,7 @@ using namespace std;
 
 int handle_gear(vector<vector<char>> &map, int y, int x);
 
-vector<int> get_num(vector<vector<char>> &map, int y, int x);
+vector<int> get_num(vector<vector<char>> &vector, int newy, int newx);
 
 int main() {
     ifstream myFile;

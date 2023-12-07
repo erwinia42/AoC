@@ -4,6 +4,8 @@
 #include <vector>
 #include <tuple>
 #include <sstream>
+#include <map>
+#include <algorithm>
 
 using namespace std;
 
@@ -23,12 +25,15 @@ vector <string> split(string s, const string &del) {
 
 int main() {
     ifstream myFile;
-    myFile.open(R"(C:\Users\erwinia\CLionProjects\AoC2023\input.txt)");
+    myFile.open(R"(..\input.txt)");
 
     vector<string> input;
     while(myFile){
         auto* line = new string;
         getline(myFile, *line);
+        if(line->empty()){
+            continue;
+        }
         input.push_back(*line);
     }
 

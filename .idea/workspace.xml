@@ -11,12 +11,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="AoC2023" targetName="8.2" />
       <config projectName="AoC2023" targetName="4.2" />
       <config projectName="AoC2023" targetName="5.1" />
       <config projectName="AoC2023" targetName="5.2" />
       <config projectName="AoC2023" targetName="6.1" />
       <config projectName="AoC2023" targetName="7.1" />
       <config projectName="AoC2023" targetName="7.2" />
+      <config projectName="AoC2023" targetName="8.1" />
       <config projectName="AoC2023" targetName="1.1" />
       <config projectName="AoC2023" targetName="1.2" />
       <config projectName="AoC2023" targetName="2.1" />
@@ -34,12 +36,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c67d04a0-182d-4cec-8487-c99003c8a0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day6.1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day7.1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day7.2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8.1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8.2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/template.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,8 @@
   "keyToString": {
     "CMake Application.7.1.executor": "Run",
     "CMake Application.7.2.executor": "Run",
+    "CMake Application.8.1.executor": "Run",
+    "CMake Application.8.2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -91,7 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.7.2">
+  <component name="RunManager" selected="CMake Application.8.2">
     <configuration name="1.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="1.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="1.1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -157,6 +159,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="8.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="8.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="8.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8.2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="8.2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="8.2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AoC2023" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="AoC2023" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="AoC2023">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -181,6 +193,8 @@
       <item itemvalue="CMake Application.6.1" />
       <item itemvalue="CMake Application.7.1" />
       <item itemvalue="CMake Application.7.2" />
+      <item itemvalue="CMake Application.8.1" />
+      <item itemvalue="CMake Application.8.2" />
       <item itemvalue="CMake Application.AoC2023" />
     </list>
   </component>
@@ -197,7 +211,7 @@
       <workItem from="1701602083491" duration="618000" />
       <workItem from="1701667135586" duration="5905000" />
       <workItem from="1701752730420" duration="6172000" />
-      <workItem from="1701925226421" duration="6523000" />
+      <workItem from="1701925226421" duration="12463000" />
     </task>
     <servers />
   </component>
@@ -241,6 +255,21 @@
           <url>file://$PROJECT_DIR$/Day7.2.cpp</url>
           <line>44</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day8.1.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day8.1.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day8.2.cpp</url>
+          <line>94</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

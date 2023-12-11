@@ -21,13 +21,17 @@
       <config projectName="AoC2023" targetName="7.2" />
       <config projectName="AoC2023" targetName="8.1" />
       <config projectName="AoC2023" targetName="1.1" />
+      <config projectName="AoC2023" targetName="10.1" />
       <config projectName="AoC2023" targetName="1.2" />
       <config projectName="AoC2023" targetName="2.1" />
+      <config projectName="AoC2023" targetName="10.2" />
+      <config projectName="AoC2023" targetName="11.1" />
       <config projectName="AoC2023" targetName="2.2" />
       <config projectName="AoC2023" targetName="3.1" />
       <config projectName="AoC2023" targetName="3.2" />
       <config projectName="AoC2023" targetName="4.1" />
       <config projectName="AoC2023" targetName="AoC2023" />
+      <config projectName="AoC2023" targetName="11.2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -37,9 +41,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c67d04a0-182d-4cec-8487-c99003c8a0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9.1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10.1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10.2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11.1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11.2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/template.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +83,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.Day9.1.cpp.executor": "Run",
+    "CMake Application.10.1.executor": "Run",
+    "CMake Application.10.2.executor": "Run",
+    "CMake Application.11.1.executor": "Run",
     "CMake Application.7.1.executor": "Run",
     "CMake Application.7.2.executor": "Run",
     "CMake Application.8.1.executor": "Run",
     "CMake Application.8.2.executor": "Run",
-    "CMake Application.9.1.executor": "Debug",
+    "CMake Application.9.1.executor": "Run",
+    "CMake Application.AoC2023.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -95,10 +107,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.9.1">
+  <component name="RunManager" selected="CMake Application.11.2">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="10.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="10.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="10.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="10.2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="10.2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="10.2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="11.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="11.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="11.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="11.2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="11.2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="11.2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="1.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AoC2023" TARGET_NAME="1.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AoC2023" RUN_TARGET_NAME="1.1">
@@ -196,6 +228,10 @@
       <item itemvalue="C/C++ File.Day9.1.cpp" />
       <item itemvalue="CMake Application.1.1" />
       <item itemvalue="CMake Application.1.2" />
+      <item itemvalue="CMake Application.10.1" />
+      <item itemvalue="CMake Application.10.2" />
+      <item itemvalue="CMake Application.11.1" />
+      <item itemvalue="CMake Application.11.2" />
       <item itemvalue="CMake Application.2.1" />
       <item itemvalue="CMake Application.2.2" />
       <item itemvalue="CMake Application.3.1" />
@@ -232,7 +268,9 @@
       <workItem from="1701667135586" duration="5905000" />
       <workItem from="1701752730420" duration="6172000" />
       <workItem from="1701925226421" duration="12463000" />
-      <workItem from="1702098445451" duration="1307000" />
+      <workItem from="1702098445451" duration="2469000" />
+      <workItem from="1702192864945" duration="6145000" />
+      <workItem from="1702244960925" duration="2310000" />
     </task>
     <servers />
   </component>
@@ -296,6 +334,21 @@
           <url>file://$PROJECT_DIR$/Day9.1.cpp</url>
           <line>50</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day10.1.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day10.1.cpp</url>
+          <line>81</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Day10.2.cpp</url>
+          <line>111</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

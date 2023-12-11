@@ -25,7 +25,7 @@ vector <string> split(string s, const string &del) {
 
 int main() {
     ifstream myFile;
-    myFile.open(R"(..\input.txt)");
+    myFile.open(R"(/home/erwinia/CLionProjects/AoC/input.txt)");
 
     vector<string> input;
     while(myFile){

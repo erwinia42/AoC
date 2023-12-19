@@ -36,4 +36,8 @@ add_executable(16.1 Day16.1.cpp)
 add_executable(16.2 Day16.2.cpp)
 add_executable(17.1 Day17.1.cpp)
 add_executable(17.2 Day17.2.cpp)
+add_executable(18.1 Day18.1.cpp)
+add_executable(18.2 Day18.2.cpp)
+add_executable(19.1 Day19.1.cpp)
+add_executable(19.2 Day19.2.cpp)
 

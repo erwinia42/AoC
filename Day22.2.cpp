@@ -112,14 +112,12 @@ int main() {
     }
 
     int score = 0;
-    vector<int> redundant;
     for (brick_number = 0; brick_number < input.size(); brick_number++) {
         vector<int> supported_bricks = supported_by[brick_number];
         if (all_of(supported_bricks.begin(), supported_bricks.end(), [supporting](int b) {
             return supporting[b].size() > 1;
         })) {
             score++;
-            redundant.push_back(brick_number);
         }
     }
 

@@ -42,4 +42,8 @@ add_executable(19.1 Day19.1.cpp)
 add_executable(19.2 Day19.2.cpp)
 add_executable(20.1 Day20.1.cpp)
 add_executable(20.2 Day20.2.cpp)
+add_executable(21.1 Day21.1.cpp)
+add_executable(21.2 Day21.2.cpp)
+add_executable(22.1 Day22.1.cpp)
+add_executable(22.2 Day22.2.cpp)
 

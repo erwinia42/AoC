@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("24.in") as fp:
+with open("input.txt") as fp:
     stones = [[[int(v) for v in val.split(",")] for val in row.split(" @ ")] for row in fp.read().split("\n")]
 
 n = len(stones)
